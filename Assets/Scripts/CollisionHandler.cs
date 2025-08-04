@@ -44,8 +44,8 @@ public class CollisionHandler : MonoBehaviour
         
         switch (other.gameObject.tag)
         {
-            case "Friendly":
-                Debug.Log("Everything is looking good!");
+            case "Neutral":
+                // Debug.Log("Everything is looking good!");
                 break;
             case "Finish":
                 StartSuccessSequence();
