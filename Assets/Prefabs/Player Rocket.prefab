@@ -132,9 +132,9 @@ GameObject:
   - component: {fileID: 7929405534642115807}
   - component: {fileID: 2123609288621912401}
   - component: {fileID: 3708239558576459878}
-  - component: {fileID: 7366217012609443639}
   - component: {fileID: 5049597294643399719}
   - component: {fileID: 7942427407267083015}
+  - component: {fileID: 843834209778381434}
   m_Layer: 0
   m_Name: Player Rocket
   m_TagString: Untagged
@@ -293,27 +293,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 0
---- !u!65 &7366217012609443639
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2606088774129850770}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.86, y: 1.7, z: 1}
-  m_Center: {x: 0.13, y: 0.3, z: 0}
 --- !u!82 &5049597294643399719
 AudioSource:
   m_ObjectHideFlags: 0
@@ -428,6 +407,29 @@ MonoBehaviour:
   crashSFX: {fileID: 8300000, guid: 8f2fb1538d599434db9af695ad323fcb, type: 3}
   successParticles: {fileID: 2479897535972305750}
   crashParticles: {fileID: 3990720973872527448}
+--- !u!136 &843834209778381434
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2606088774129850770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.71
+  m_Height: 2.98
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.68, z: 0}
 --- !u!1 &2869740060429083948
 GameObject:
   m_ObjectHideFlags: 0
